@@ -7,6 +7,7 @@ import os
 import shutil
 import time 
 import discord
+import turtle
 from tqdm import tqdm
 from colorama import Fore, init
 
@@ -49,9 +50,9 @@ def exit():
 
 
 
-def massDM():
+def phasedout():
     os.system("cls")
-    import utils.massdm   
+    import utils.phasedout
 
 def wb():
     os.system("cls")
@@ -93,14 +94,14 @@ def menu():
     
 
     else:
-        unlock()
+        phasedout()
 
 if __name__ == "__main__":  
-    os.system("title Loading Nightmare...")
+    os.system("title Loading Nightmare-Remade...")
     progressbar = tqdm([1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20])
     for item in progressbar:
         time.sleep(0.1)
-    progressbar.set_description(' Loading Nightmare: ')
+    progressbar.set_description(' Loading Nightmare-Remade: ')
 
 time.sleep(3)
 print("\n")
