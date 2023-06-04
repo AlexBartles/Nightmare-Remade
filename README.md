@@ -15,3 +15,7 @@
 **When launching it run "Launch Nightmare-Remade.bat"**
 
 =====================================================
+
+**Originally coded by Shade**
+
+=====================================================
