@@ -21,7 +21,3 @@ PLEASE RUN V1.0 AND HIGHER UNLESS TOLD, THANK YOU
 **When launching it run "Launch Nightmare-Remade.bat"**
 
 =====================================================
-
-**Originally coded by Shade**
-
-=====================================================
