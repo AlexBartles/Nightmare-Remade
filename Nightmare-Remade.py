@@ -56,6 +56,9 @@ def massDM():
 def wb():
     os.system("cls")
     import utils.wbspammer
+def spidermanbuilder():
+    os.system("cls")
+    import utils.spidermanbuilder
 
 
 def gui():
@@ -73,7 +76,7 @@ def gui():
                                          {p1}╔══════════════════╦═════════════════╗{w1}
                                          {p1}║    
                                          {p1}║           {w1}[{p1}1{w1}] WBSpammer    
-                                         {p1}║      
+                                         {p1}║        {w1}[{p1}2{w1}] SpidermanBuilder
                                          {p1}╚══════════════════╩═════════════════╝{w1} 
 """)
 
@@ -84,6 +87,9 @@ def menu():
     
     if x == '1':
         wb()
+
+    elif x == '2':
+          spidermanbuilder()
     
 
     else:
