@@ -73,7 +73,7 @@ def gui():
                                          {p1}╔══════════════════╦═════════════════╗{w1}
                                          {p1}║    
                                          {p1}║           {w1}[{p1}1{w1}] WBSpammer    
-                                         {p1}║            {w1}[{p1}2{w1}] MassDM(Discontinued for security purposes)       
+                                         {p1}║      
                                          {p1}╚══════════════════╩═════════════════╝{w1} 
 """)
 
@@ -85,9 +85,7 @@ def menu():
     if x == '1':
         wb()
     
-    elif x == '2':
 
-        massDM()
     else:
         unlock()
 
