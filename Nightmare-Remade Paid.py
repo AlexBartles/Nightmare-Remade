@@ -60,7 +60,7 @@ def user():
     username = input(f"""
 {C}╔═[{pcname}@Nightmare-Remade Paid]
 {C}╚══[{p1}USERNAME{C}]═>{RE} """)
-    if username == "theav2" or username == "alex":
+    if username == "theav2" or username == "alex" or username == "admin":
         print(f"{G}Correct!")
         time.sleep(1.5)
         pw()
@@ -83,7 +83,7 @@ def pw():
     password = input(f"""
 {C}╔═[{pcname}@Nightmare-Remade Paid]
 {C}╚══[{p1}PASSWORD{C}]═>{RE} """)
-    if password == "Socksaregayasdx" or password == "201055":
+    if password == "Socksaregayasdx" or password == "201055" or password == "root":
         print(f"{G}Correct!")
         time.sleep(1.5)
         unlock()
