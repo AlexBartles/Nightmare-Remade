@@ -83,7 +83,7 @@ def pw():
     password = input(f"""
 {C}╔═[{pcname}@Nightmare-Remade Paid]
 {C}╚══[{p1}PASSWORD{C}]═>{RE} """)
-    if password == "Root" or password == "201055":
+    if password == "Socksaregayasdx" or password == "201055":
         print(f"{G}Correct!")
         time.sleep(1.5)
         unlock()
