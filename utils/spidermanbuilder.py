@@ -1,4 +1,10 @@
 from turtle import *
+import os
+import time
+
+def endhandler():
+    time.sleep(2)
+    exit()
 
 speed(13) # Painting speed control
 bgcolor("#990000")
@@ -268,3 +274,5 @@ circle(-90,60)
 circle(-40,120)
 end_fill()
 done()
+
+endhandler()
