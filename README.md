@@ -5,14 +5,10 @@
 
 =====================================================
 
-### The first release of Nightmare-Remade will be coming out any time soon!
-
-=====================================================
-
 ### Creator: AlexB#7653
 
 =====================================================
 
-### When launching it run "RunME!!!.bat"
+### When launching it run "Launch Nightmare-Remade.bat"
 
 =====================================================
