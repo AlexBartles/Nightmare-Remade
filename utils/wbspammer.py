@@ -36,7 +36,7 @@ def main(webhook, name, delay, amount, message, hookDeleter):
 
 def initialize():
 
-    webhook = input("\u001b[32m>\u001b[37m Enter ur webhook > ")
+    webhook = input("\u001b[32m>\u001b[37m Enter the webhook url > ")
     name = input("\u001b[32m>\u001b[37m Enter a webhook name > ")
     message = input("\u001b[32m>\u001b[37m Enter a message > ")
     delay = input("\u001b[32m>\u001b[37m Enter a delay [int/float] > ")
@@ -54,7 +54,7 @@ def initialize():
 
 
 if __name__ == '__main__':
-    os.system('title [Nightmare Webhook Spammer] By Shade')
+    os.system('title [Nightmare-Remade Webhook Spammer] By AlexB#7653')
 
 buh = '''
   ███╗   ██╗██╗ ██████╗ ██╗  ██╗████████╗███╗   ███╗ █████╗ ██████╗ ███████╗
@@ -63,8 +63,7 @@ buh = '''
 ██║╚██╗██║██║██║   ██║██╔══██║   ██║   ██║╚██╔╝██║██╔══██║██╔══██╗██╔══╝
   ██║ ╚████║██║╚██████╔╝██║  ██║   ██║   ██║ ╚═╝ ██║██║  ██║██║  ██║███████╗
   ╚═╝  ╚═══╝╚═╝ ╚═════╝ ╚═╝  ╚═╝   ╚═╝   ╚═╝     ╚═╝╚═╝  ╚═╝╚═╝  ╚═╝╚══════╝
-Shade#3421
-https://shade.army
+AlexB#7653
 '''
 for line in buh.splitlines():
     print(f'\033[35m {line}'.center(center).replace("█",f"\033[0m█\033[35m"))
