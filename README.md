@@ -1,3 +1,9 @@
+===========================================================
+
+**The customer panel is at nightmare-remade.great-site.net
+where you can download the tool and generate invite license
+keys (soon™)!
+
 ============================================================
 
 **Nightmare-Remade is a discord multitool!**
