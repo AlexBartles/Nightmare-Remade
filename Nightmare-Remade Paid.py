@@ -35,7 +35,7 @@ B = '\033[34m' # blue
 LG = '\033[37m' # lightgrey
 
 def start():
-    user()
+    Licensecall()
 
 
 def unlock():
@@ -46,9 +46,9 @@ def exit():
     os._exit(0)
 
 
-def user():
+def Licensecall():
     os.system("cls")
-    os.system('cls & title Nightmare-Remade Paid : User')
+    os.system('cls & title Nightmare-Remade Paid : License Key')
     print(f"""
                          {C}███╗   ██╗██╗ ██████╗ ██╗  ██╗████████╗███╗   ███╗ █████╗ ██████╗ ███████╗
                          {C}████╗  ██║██║██╔════╝ ██║  ██║╚══██╔══╝████╗ ████║██╔══██╗██╔══██╗██╔════╝
@@ -57,40 +57,18 @@ def user():
                          {C}██║ ╚████║██║╚██████╔╝██║  ██║   ██║   ██║ ╚═╝ ██║██║  ██║██║  ██║███████╗
                          {C}╚═╝  ╚═══╝╚═╝ ╚═════╝ ╚═╝  ╚═╝   ╚═╝   ╚═╝     ╚═╝╚═╝  ╚═╝╚═╝  ╚═╝╚══════╝
     """)
-    username = input(f"""
+    license = input(f"""
 {C}╔═[{pcname}@Nightmare-Remade Paid]
-{C}╚══[{p1}USERNAME{C}]═>{RE} """)
-    if username == "theav2" or username == "alex" or username == "admin":
-        print(f"{G}Correct!")
-        time.sleep(1.5)
-        pw()
-    else:
-        print(f"{R}Incorrect!")
-        time.sleep(1.5)
-        user()
-
-def pw():
-    os.system("cls")
-    os.system('cls & title Nightmare-Remade : Password')
-    print(f"""
-                         {C}███╗   ██╗██╗ ██████╗ ██╗  ██╗████████╗███╗   ███╗ █████╗ ██████╗ ███████╗
-                         {C}████╗  ██║██║██╔════╝ ██║  ██║╚══██╔══╝████╗ ████║██╔══██╗██╔══██╗██╔════╝
-                         {C}██╔██╗ ██║██║██║  ███╗███████║   ██║   ██╔████╔██║███████║██████╔╝█████╗
-                         {C}██║╚██╗██║██║██║   ██║██╔══██║   ██║   ██║╚██╔╝██║██╔══██║██╔══██╗██╔══╝
-                         {C}██║ ╚████║██║╚██████╔╝██║  ██║   ██║   ██║ ╚═╝ ██║██║  ██║██║  ██║███████╗
-                         {C}╚═╝  ╚═══╝╚═╝ ╚═════╝ ╚═╝  ╚═╝   ╚═╝   ╚═╝     ╚═╝╚═╝  ╚═╝╚═╝  ╚═╝╚══════╝
-    """)
-    password = input(f"""
-{C}╔═[{pcname}@Nightmare-Remade Paid]
-{C}╚══[{p1}PASSWORD{C}]═>{RE} """)
-    if password == "Socksaregayasdx" or password == "201055" or password == "root":
+{C}╚══[{p1}LICENSE KEY{C}]═>{RE} """)
+    if license == "c4c2ob-v61lsq-mvq006-s1gmne-d6zm1m-onvv8b" or license == "9690zw-w6fnjm-bjubeb-o0rqpy-2mmlp4-wb4jt9":
         print(f"{G}Correct!")
         time.sleep(1.5)
         unlock()
     else:
         print(f"{R}Incorrect!")
         time.sleep(1.5)
-        pw()
+        Licensecall()
+
 
 def wb():
     os.system("cls")
