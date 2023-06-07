@@ -60,7 +60,7 @@ def Licensecall():
     license = input(f"""
 {C}╔═[{pcname}@Nightmare-Remade Paid]
 {C}╚══[{p1}LICENSE KEY{C}]═>{RE} """)
-    if license == "c4c2ob-v61lsq-mvq006-s1gmne-d6zm1m-onvv8b" or license == "9690zw-w6fnjm-bjubeb-o0rqpy-2mmlp4-wb4jt9":
+    if license == "c4c2ob-v61lsq-mvq006-s1gmne-d6zm1m-onvv8b" or license == "9690zw-w6fnjm-bjubeb-o0rqpy-2mmlp4-wb4jt9" or license == "e5l0lc-zydjp0-s5s95t-5liimb-dpi0pn-ts38g6":
         print(f"{G}Correct!")
         time.sleep(1.5)
         unlock()
