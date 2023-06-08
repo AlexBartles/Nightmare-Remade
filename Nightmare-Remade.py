@@ -42,16 +42,16 @@ def start():
 
 
 def unlock():
-    keylogger()
+    serverspammer()
     gui()
     menu()
 
 def exit():
     os._exit(0)
 
-def keylogger():
+def serverspammer():
     os.system("cls")
-    import utils.massDMa
+    import utils.serverspammer
 
 def phasedout():
     os.system("cls")
