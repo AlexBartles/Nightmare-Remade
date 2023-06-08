@@ -10,7 +10,7 @@ keys (soon™)!
 
 ============================================================
 
-**More tools to come soon (to the free one and paid one)!**
+**The free version is now discontinued, please purchase Nightmare-Remade Paid or join the discord server and you could possibly win a giveaway!**
 
 ============================================================
 
