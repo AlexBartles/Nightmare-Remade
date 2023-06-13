@@ -48,15 +48,6 @@ def unlock():
 
 def exit():
     os._exit(0)
-
-def serverspammer():
-    os.system("cls")
-    import utils.serverspammer
-
-def phasedout():
-    os.system("cls")
-    import utils.phasedout
-
 def wb():
     os.system("cls")
     import utils.wbspammer
@@ -97,7 +88,7 @@ def menu():
     
 
     else:
-        phasedout()
+        unlock()
 
 if __name__ == "__main__":  
     os.system("title Loading Nightmare-Remade...")

@@ -1,14 +1,3 @@
-from termcolor import colored
-
-title = colored('''
-  _   _   _   _   _   _   _   _   _     _   _   _   _   _   _   _  
- / \ / \ / \ / \ / \ / \ / \ / \ / \   / \ / \ / \ / \ / \ / \ / \ 
-( N | i | g | h | t | m | a | r | e )-( - | R | e | m | a | d | e )
- \_/ \_/ \_/ \_/ \_/ \_/ \_/ \_/ \_/   \_/ \_/ \_/ \_/ \_/ \_/ \_/ 
-                               ( d | e )
-                                      \_/   
-''', 'orange')
-
 #######################################################################################
 
 import os
@@ -60,11 +49,16 @@ def exit():
 def Licensecall():
     os.system("cls")
     os.system('cls & title Nightmare-Remade Paid : License Key')
-    print(title)
+    print(f"""
+  _   _   _   _   _   _   _   _   _     _   _   _   _   _   _   _  
+ / \ / \ / \ / \ / \ / \ / \ / \ / \   / \ / \ / \ / \ / \ / \ / \ 
+( N | i | g | h | t | m | a | r | e )-( - | R | e | m | a | d | e )
+ \_/ \_/ \_/ \_/ \_/ \_/ \_/ \_/ \_/\_/ \_/ \_/ \_/ \_/ \_/ \_/ \_/   
+    """)
     license = input(f"""
 {C}╔═[{pcname}@Nightmare-Remade Paid]
-{C}╚══[{p1}LICENSE KEY{C}]═>{RE} """)
-    if license == "c4c2ob-v61lsq-mvq006-s1gmne-d6zm1m-onvv8b" or license == "9690zw-w6fnjm-bjubeb-o0rqpy-2mmlp4-wb4jt9" or license == "e5l0lc-zydjp0-s5s95t-5liimb-dpi0pn-ts38g6":
+{C}╚══[{p1}LICENSE KEY OR WEBSITE USERNAME{C}]═>{RE} """)
+    if license == "c4c2ob-v61lsq-mvq006-s1gmne-d6zm1m-onvv8b" or license == "9690zw-w6fnjm-bjubeb-o0rqpy-2mmlp4-wb4jt9" or license == "AlexBartles" or license == "theav2":
         print(f"{G}Correct!")
         time.sleep(1.5)
         unlock()
@@ -96,15 +90,19 @@ def massDM():
 
 def gui():
     os.system('cls & title Nightmare-Remade Paid : Made By AlexB#7653')
-    print(title)
+    print(f"""
+  _   _   _   _   _   _   _   _   _     _   _   _   _   _   _   _  
+ / \ / \ / \ / \ / \ / \ / \ / \ / \   / \ / \ / \ / \ / \ / \ / \ 
+( N | i | g | h | t | m | a | r | e )-( - | R | e | m | a | d | e )
+ \_/ \_/ \_/ \_/ \_/ \_/ \_/ \_/ \_/\_/ \_/ \_/ \_/ \_/ \_/ \_/ \_/  Creator: AlexB#7653
 
-print("╔═══════════════════════════════════════════╗")
-print("║       Nightmare-Remade Tool Selection       ║")
-print("╠═══════════════════════════════════════════╣")
-print("║ 1. TokenCrasher       ║ 2. Spider-Man        ║ 3. WBSpammer           ║")
-print("╠═══════════════════════════════════════════╣")
-print("║ 4. MassReport         ║ 5. MassDM             ║ 6. soon™               ║")
-print("╚═══════════════════════════════════════════╝")
+╔═══════════════════════════════════════════╗
+║       Nightmare-Remade Tool Selection       ║
+╠═══════════════════════════════════════════╣
+║ 1. TokenCrasher       ║ 2. Spider-Man        ║ 3. WBSpammer           ║
+╠═══════════════════════════════════════════╣
+║ 4. MassReport         ║ 5. MassDM             ║ 6. soon™               ║
+╚═══════════════════════════════════════════╝
 """)
 
 def menu():
