@@ -1,14 +1,14 @@
-#######################################################################################
-
+# Import modules
 import os
+import tkinter as tk
+import turtle
 import shutil
 import time 
 import discord
-import turtle
-from tqdm import tqdm
 from colorama import Fore, init
+from tkinter import ttk
+from tkinter.messagebox import showinfo
 
-center = shutil.get_terminal_size().columns
 pcname = (os.getenv('COMPUTERNAME'))
 
 init(autoreset=True)
@@ -37,14 +37,40 @@ LG = '\033[37m' # lightgrey
 def start():
     Licensecall()
 
-
 def unlock():
     gui()
-    menu()
 
 def exit():
     os._exit(0)
 
+def wb():
+    os.system("cls")
+    os.system("cd utils")
+    os.system("python wbspammer.py")
+
+def spidermanbuilder():
+    os.system("cls")
+    os.system("cd utils")
+    os.system("python spidermanbuilder.py")
+
+def reporter():
+    os.system("cls")
+    os.system("cd utils")
+    os.system("python reporter.py")
+
+def tokencrasher():
+    os.system("cls")
+    os.system("cd utils")
+    os.system("python tokencrasher.py")
+    
+def massDM():
+    os.system("cls")
+    os.system("cd utils")
+    os.system("python massdm.py")
+
+def soon():
+    os.system("cls")
+    print("Coming soon!")
 
 def Licensecall():
     os.system("cls")
@@ -67,78 +93,55 @@ def Licensecall():
         time.sleep(1.5)
         Licensecall()
 
-
-def wb():
-    os.system("cls")
-    import utils.wbspammer
-
-def spidermanbuilder():
-    os.system("cls")
-    import utils.spidermanbuilder
-
-def reporter():
-    os.system("cls")
-    import utils.reporter
-
-def tokencrasher():
-    os.system("cls")
-    import utils.tokencrasher
-    
-def massDM():
-    os.system("cls")
-    import utils.massdm   
-
 def gui():
-    os.system('cls & title Nightmare-Remade Paid : Made By AlexB#7653')
-    print(f"""
-  _   _   _   _   _   _   _   _   _     _   _   _   _   _   _   _  
- / \ / \ / \ / \ / \ / \ / \ / \ / \   / \ / \ / \ / \ / \ / \ / \ 
-( N | i | g | h | t | m | a | r | e )-( - | R | e | m | a | d | e )
- \_/ \_/ \_/ \_/ \_/ \_/ \_/ \_/ \_/\_/ \_/ \_/ \_/ \_/ \_/ \_/ \_/  Creator: AlexB#7653
+    # Display settings
+    root = tk.Tk()  #Create application window
 
-╔═══════════════════════════════════════════╗
-║       Nightmare-Remade Tool Selection       ║
-╠═══════════════════════════════════════════╣
-║ 1. TokenCrasher       ║ 2. Spider-Man        ║ 3. WBSpammer           ║
-╠═══════════════════════════════════════════╣
-║ 4. MassReport         ║ 5. MassDM             ║ 6. soon™               ║
-╚═══════════════════════════════════════════╝
-""")
+    # Display settings
+    window_width = 600    #Set window height and width
+    window_height = 500
+    screen_width = root.winfo_screenwidth()
+    screen_height = root.winfo_screenheight()
+    center_x = int(screen_width/2 - window_width/2)
+    center_y = int(screen_height/2 - window_height/2)
+    root.geometry(f'{window_width}x{window_height}+{center_x}+{center_y}')
+    root.resizable(0, 0)
+    root.attributes('-topmost', 0)
+    root.attributes('-alpha', 1)     #Adjust transparacy
+    root.title("Nightmare-Remade Paid V5 Refresh") # Create window title
 
-def menu():
-    x = input(f"""
-{C}╔═[{pcname}@Nightmare-Remade Paid]
-{C}╚══[{p1}OPTION{C}]═>{RE} """)
-    
-    if x == '1':
-        tokencrasher()
-    elif x == '2':
-          spidermanbuilder()
-    elif x == '3':
-          wb()
-    elif x == '4':
-          reporter()
-    elif x == '5':
-          massDM()
-    elif x == '6':
-        print(f"{R}Not Released Yet{RE}")
-        time.sleep(2)
-        unlock()
-    else:
-        unlock()
 
-if __name__ == "__main__":  
-    os.system("title Loading Nightmare-Remade Paid...")
-    progressbar = tqdm([1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20])
-    for item in progressbar:
-        time.sleep(0.1)
-    progressbar.set_description(' Loading Nightmare-Remade Paid: ')
+    # TokenCrasher button
+    tokencrasher_button = ttk.Button(root,text="TokenCrasher", compound=tk.LEFT, command=tokencrasher) #command property tells tkinter what you wanna execute when button is clicked
+    tokencrasher_button.pack(ipadx=5,ipady=5,expand=True)
 
-time.sleep(3)
-print("\n")
 
-progressbar = tqdm([1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33])
-for item in progressbar:
-        time.sleep(0.1)
-progressbar.set_description(' Loading utils: ')
-start()
+    # Spider-Man button
+    spiderman_button = ttk.Button(root,text="Spider-Man",command=spidermanbuilder)
+    spiderman_button.pack(ipadx=5,ipady=5,expand=True)
+
+    # WBSpammer button
+    wbspammer_button = ttk.Button(root,text="WBSpammer",command=wb)
+    wbspammer_button.pack(ipadx=5,ipady=5,expand=True)
+
+    # MassReport button
+    massreport_button = ttk.Button(root,text="MassReport",command=reporter)
+    massreport_button.pack(ipadx=5,ipady=5,expand=True)
+
+    # MassDM button
+    massdm_button = ttk.Button(root,text="MassDM",command=massDM)
+    massdm_button.pack(ipadx=5,ipady=5,expand=True)
+
+    # soon™ button
+    soon_button = ttk.Button(root,text="soon™",command=soon)
+    soon_button.pack(ipadx=5,ipady=5,expand=True)
+
+    # Exit button
+    exit_button = ttk.Button(root,text="Exit",command=lambda: root.destroy())
+    exit_button.pack(ipadx=5,ipady=5,expand=True)
+
+    # Keep GUI on display
+    root.mainloop()
+
+if __name__ == "__main__":
+    start()
