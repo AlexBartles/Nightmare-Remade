@@ -1,8 +1,8 @@
 ===========================================================
 
-**The customer panel is at nightmare-remade.great-site.net
+**The customer panel is at http://nightmare-remade.great-site.net
 where you can download the tool and generate invite license
-keys (soon™)!
+keys (soon™)!**
 
 ============================================================
 
