@@ -1,6 +1,3 @@
-# Nightmare was proudly coded by Shade (https://github.com/Shade3421).
-# Copyright (c) 2022 Shade#3421 | https://shade.army
-
 #######################################################################################
 
 import os
@@ -42,7 +39,6 @@ def start():
 
 
 def unlock():
-    serverspammer()
     gui()
     menu()
 
