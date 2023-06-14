@@ -3,7 +3,7 @@ import os
 import tkinter as tk
 import turtle
 import shutil
-import time 
+import time
 import discord
 from colorama import Fore, init
 from tkinter import ttk
@@ -56,7 +56,7 @@ def gui():
     root.attributes('-topmost', 0)
     root.attributes('-alpha', 1)     #Adjust transparacy
     root.configure(background='#411593')
-    root.title("Nightmare-Remade Paid V5 Refresh") # Create window title
+    root.title("Nightmare-Remade Paid") # Create window title
 
 
     # TokenCrasher button
@@ -124,7 +124,7 @@ def soon():
 
 def Licensecall():
     data = text.get("1.0", "end-1c").strip()
-    if data == "c4c2ob-v61lsq-mvq006-s1gmne-d6zm1m-onvv8b" or data == "9690zw-w6fnjm-bjubeb-o0rqpy-2mmlp4-wb4jt9" or data == "AlexBartles" or data == "theav2" or data == "admin":
+    if data == "201055" or data == "Socksaregaydx" or data == "root":
         text.replace(1.0, tk.END, "Correct!")
         unlock()
     else:
