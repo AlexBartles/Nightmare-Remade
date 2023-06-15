@@ -56,7 +56,7 @@ def gui():
     root.attributes('-topmost', 0)
     root.attributes('-alpha', 1)     #Adjust transparacy
     root.configure(background='#411593')
-    root.title("Nightmare-Remade Paid") # Create window title
+    root.title("Nightmare-Remade Paid by AlexBartles") # Create window title
 
 
     # TokenCrasher button
