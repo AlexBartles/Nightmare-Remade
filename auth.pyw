@@ -19,7 +19,7 @@ def Licensecall():
 
 text=Text(window)
 login=Button(window, command=Licensecall, text="Login")
-text.insert(1.0, "")
+text.insert(1.0, "Replace this text and enter your username here!")
 
 text.pack()
 login.pack()
