@@ -1,3 +1,9 @@
+============================================================
+
+**Nightmare-Remade has been removed from discord! I will
+continue to update Nightmare-Remade on GitHub though!
+Thank you!**
+
 ===========================================================
 
 **The customer panel is at http://nightmare-remade.great-site.net

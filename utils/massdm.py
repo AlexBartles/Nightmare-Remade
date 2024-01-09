@@ -15,7 +15,7 @@ dblue = Fore.MAGENTA
 gray = Fore.LIGHTBLACK_EX
 intents = discord.Intents.all()
 
-os.system('title [Nightmare-Remade Paid MassDM] By AlexB - Main Menu')
+os.system('title [Nightmare-Remade Paid MassDM] By AlexBartles - Main Menu')
 
 
 buh = '''
@@ -25,7 +25,7 @@ buh = '''
 ██║╚██╗██║██║██║   ██║██╔══██║   ██║   ██║╚██╔╝██║██╔══██║██╔══██╗██╔══╝
   ██║ ╚████║██║╚██████╔╝██║  ██║   ██║   ██║ ╚═╝ ██║██║  ██║██║  ██║███████╗
   ╚═╝  ╚═══╝╚═╝ ╚═════╝ ╚═╝  ╚═╝   ╚═╝   ╚═╝     ╚═╝╚═╝  ╚═╝╚═╝  ╚═╝╚══════╝
-AlexB#7653
+AlexBartles
 '''
 for line in buh.splitlines():
     print(f'\033[35m {line}'.center(center).replace("█",f"\033[0m█\033[35m"))
